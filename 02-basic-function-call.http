@@ -1,0 +1,37 @@
+POST https://api.openai.com/v1/chat/completions
+content-type: application/json
+Authorization: Bearer {{key}}
+
+{
+  "model": "gpt-3.5-turbo",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What's the weather like in Burnaby?"
+    }
+  ],
+  "functions": [
+    {
+      "name": "weatherQuery",
+      "description": "Get the current weather in a given location",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "location": {
+            "type": "string",
+            "description": "If US: 'New York,NY,US'. else: 'london,UK'. Use ISO-3166"
+          },
+          "unit": {
+            "type": "string",
+            "description": "location unit: metric or imperial."
+          }
+        },
+        "required": [
+          "location",
+          "unit"
+        ]
+      }
+    }
+  ],
+  "function_call": "auto"
+}

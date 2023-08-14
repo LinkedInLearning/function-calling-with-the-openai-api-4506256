@@ -1,0 +1,22 @@
+POST https://api.openai.com/v1/chat/completions
+content-type: application/json
+Authorization: Bearer {{key}}
+
+{
+  "model": "gpt-3.5-turbo",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Act like a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Write me a haiku about ducks."
+    }
+  ],
+  "temperature": 1,
+  "max_tokens": 256,
+  "top_p": 1,
+  "frequency_penalty": 0,
+  "presence_penalty": 0  
+}
