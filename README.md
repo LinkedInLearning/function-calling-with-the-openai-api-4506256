@@ -1,7 +1,10 @@
 # Function Calling with the OpenAI API
-This is the repository for the LinkedIn Learning course `Function Calling with the OpenAI API`. The full course is available from [LinkedIn Learning][lil-course-url].
+This is the repository for the LinkedIn Learning course Function Calling with the OpenAI API. The full course is available from [LinkedIn Learning][lil-course-url].
 
-_See the readme file in the main branch for updated instructions and information._
+![Function Calling with the OpenAI API][lil-thumbnail-url] 
+
+Prompting is great, but sometimes you need a more programmatic approach. That’s where function calling comes in. In this course, senior staff instructor, web designer, and software developer Morten Rand-Hendriksen explains function calling with the OpenAI API.
+
 ## Instructions
 This repository has no branches. Each example featured in the course is contained in a separate file, prefixed 01, 02, and 03. To follow along, open the relevant file and follow the instructions in the course.
 
@@ -14,9 +17,15 @@ To run the queries in the example files, you need an OpenAI API key.
 5. Open `01-standard-query.http`.
 6. In the bottom toolbar, click on the words "No Environment" and change the setting to "openai". This will activate your key in the file and allow it to be used.
 
+### Instructor
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+Morten Rand-Hendriksen 
+                            
+Developer and Senior Staff Instructor
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+                            
 
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/morten-rand-hendriksen).
+
+[lil-course-url]: https://www.linkedin.com/learning/function-calling-with-the-openai-api?dApp=59033956&leis=LAA
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQHFJ_NsHrFR1g/learning-public-crop_675_1200/0/1692400120285?e=2147483647&v=beta&t=ljBun-CD2xGHP4uCmH5wVHqgZo7VZ2PWDE009ptd5S4
