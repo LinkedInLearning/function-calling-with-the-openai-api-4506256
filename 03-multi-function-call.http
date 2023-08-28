@@ -7,7 +7,7 @@ Authorization: Bearer {{key}}
   "messages": [
     {
       "role": "user",
-      "content": "What's the weather like in Burnaby?"
+      "content": "How many ducks fit in a pond?"
     }
   ],
   "functions": [
@@ -54,5 +54,5 @@ Authorization: Bearer {{key}}
       }
     }
   ],
-  "function_call": "auto"
+  "function_call": {"name": "authorQuery"}
 }
